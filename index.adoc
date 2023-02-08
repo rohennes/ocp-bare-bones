@@ -1,11 +1,11 @@
-// Should be an AsciiDoc error for the ID.
+// Should be no errors for the ID.
 [id="welcome-index"]
 = Test
 
 [.lead]
-This is a test file in a sub-folder.
+This is a test file at the highest level of the repo.
 
-// Should be an AsciiDoc error for the xref
+// Should be no errors for the xref
 xref:welcome/index.adoc[This is a test xref]
 
 //Should be a RedHat rule error for this sentence.
