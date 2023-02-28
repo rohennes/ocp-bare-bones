@@ -5,8 +5,15 @@
 [.lead]
 This is a test file in a sub-folder.
 
-// Should be an AsciiDoc error for the xref
-xref:welcome/index.adoc[This is a test xref]
+// Should be an AsciiDoc error as the table doesn't have a closing delimiter 
+[Attributes]
+|===
+|Header column 1 |Header column 2 |Header column 3
+
+|Cell 1, row 1
+|Cell 2, row 1
+|Cell 3, row 1
+
 
 //Should be a RedHat rule error for this sentence.
 Eat using a fork.

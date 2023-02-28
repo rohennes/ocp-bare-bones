@@ -3,10 +3,15 @@
 = Test
 
 [.lead]
-This is a test file at the highest level of the repo.
+This is a test file at the highest level of the repository.
 
-// Should be no errors for the xref
-xref:welcome/index.adoc[This is a test xref]
+[Attributes]
+|===
+|Header column 1 |Header column 2 |Header column 3
+
+|Cell 1, row 1
+|Cell 2, row 1
+|Cell 3, row 1
 
 //Should be a RedHat rule error for this sentence.
 Eat using a fork.
