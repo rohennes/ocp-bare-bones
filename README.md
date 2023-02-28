@@ -11,3 +11,4 @@ welcome/index.adoc should have an AsciiDoc error and a RedHat error:
 index.adoc should only have the RedHat error:
 * RedHat.TermsSuggestions
 
+![image](https://user-images.githubusercontent.com/104497497/221920853-bd0ffaca-11f6-4df6-911b-d1fc7cb0ed60.png)
